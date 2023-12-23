@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+   
+}
+
+.header{
+text-align:center;
+width:100%;
+background-color:teal;
+color:white;
+
+justify-content: center;  
+    align-items: center; 
+
+}
+
+
+
+.left-side,.right-container{
+width: 40%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+
+} 
+
+
+.line{
+
+border:2px solid blue
+}
+
+.right-container {
+    overflow-y: auto;
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+.form-group label {
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+}
+.form-group input[type="text"], .form-group input[type="email"] {
+    flex: 1;
+    padding: 5px;
+}
+.form-group input[type="radio"] {
+    margin-right: 5px;
+}
+.form-group button{
+
+width:100px;
+height:40px;
+color:white; 
+}
+
+#submit{
+
+background-color:blue;
+border:2px solid blue;
+border-radius:5px;
+
+}
+#clear{
+
+background-color:red;
+border:2px solid red;
+border-radius:5px;
+margin-left:20px;
+}
+
+.complete{
+display: flex;
+    justify-content: space-between;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: teal;
+    color: white;
+}
+
+
+table tr:nth-child(even) {
+background-color: lightyellow;  
+}
+
+table tr:nth-child(odd) {
+background-color: white; 
+}
+.delete-button{
+background-color: #007BFF;
+color: white;
+border: none;
+font-family: 'Times New Roman', Times, serif;
+padding: 10px 20px;
+cursor: pointer;
+border-radius: 5px;
+font-weight: bold;
+margin-top: 10px;
+}
+
+.delete-button:hover{
+background-color: #0056b3;
+}
+
+
